@@ -11,8 +11,25 @@
 
 	<body>
 	<img  src="img/invite.jpg" alt="invite" />
+   	<div class="board">
+              <div class="google-map" id="map_canvas"></div>
+            </div>
+            <div class="contacts-info">
+              <div class="arrow"><img src="http://park-hotel.rv.ua/images/arrow.png" alt="#" /></div>
 
-		<!--LOAD SCRIPTS-->
+              <div class="info">
+                                <div class="tel" style="background:none ">Готель</div>
+                <div class="tel"><a href="tel:0362619300">(0362) 61-93-00</a></div>
+                <div class="ks"><a href="tel:0679040450">(067) 904-04-50</a></div>
+                <!-- <br /> -->
+                                <div class="tel" style="background:none ">Ресторан</div>
+                <div class="ks"><a href="tel:0679040495">(067) 904-04-95</a></div>
+
+                <div class="text"><a href="mailto:hotel@park-hotel.rv.ua">hotel@park-hotel.rv.ua</a><br /><br />Введіть свою адресу, щоб отримати <br />маршрут до комплексу <br />«Парк-готель Швейцарія»</div>
+                <div class="field">
+                  <input type="text" name="address" value="" onkeypress="if (event.keyCode==13) calcRoute()" id="name_street" onblur="fill();" />
+                  <div class="field-arrow"><img onClick="calcRoute();" src="http://park-hotel.rv.ua/images/arrow-2.png" alt="#" /></div>
+                </div>		<!--LOAD SCRIPTS-->
 		<script src="jquery-3.3.1.slim.min.js"></script>
 		<script src="script.js"></script>
 	</body>
