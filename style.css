@@ -4,7 +4,7 @@ html {
 	max-width: 900px;
 	margin: auto;
 	background-color: #FFFFF9;
-	font-family: 'Kirang Haerang', cursive;
+        font-family: 'Modern Antiqua', cursive;
 	font-size: 1.25rem;
 	font-size: calc(.7rem + 1vmin);
 }
