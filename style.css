@@ -4,12 +4,11 @@ html {
 	max-width: 900px;
 	margin: auto;
 	background-color: #FFFFF8;
-        font-family: 'Modern Antiqua', cursive;
+        font-family: 'Kirang+Haerang', sans-serif;
 	font-size: 1.25rem;
 	font-size: calc(.7rem + 1vmin);
 }
 body {
-	font-family: 'Modern Antiqua', cursive;
 	margin: 4vh 4vw;
 }
 a:link, a:visited {
