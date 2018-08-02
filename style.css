@@ -9,7 +9,7 @@ html {
 	font-size: calc(.7rem + 1.25vmin);
 }
 body {
-	margin: 4vh 4vw;
+	margin: 8vh 8vw;
 }
 a:link, a:visited {
 	color: inherit;
