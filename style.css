@@ -3,7 +3,8 @@
 html {
 	max-width: 900px;
 	background-color: #FFFFF8;
-        font-family: 'Caveat', sans-serif;
+	margin: auto;
+	font-family: 'Caveat', sans-serif;
 	font-size: 1.25rem;
 	font-size: calc(.7rem + 1.25vmin);
 }
